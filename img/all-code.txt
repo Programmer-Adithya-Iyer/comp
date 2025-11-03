@@ -1,0 +1,1276 @@
+#index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Innovex | Fundraiser | Home</title>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./base.css">
+	<link rel="stylesheet" href="./footer.css">
+	<link rel="stylesheet" href="./navbar.css">
+	<link rel="shortcut icon" href="./img/logo-symbol.ico" type="image/x-icon">
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="nav-left-container">
+				<img src="img/logo.svg" alt="logo">
+			</div>
+			<div class="nav-center-container">
+				<ul>
+					<li class="nav-link"><a href="./index.html">Home</a></li>
+					<li class="nav-link"><a href="#footer">About</a></li>
+					<li class="nav-link"><a href="./companies.html">Companies</a></li>
+					<li class="nav-link"><a href="./index.html">Funding</a></li>
+					<li class="nav-link"><a href="./contact.html">Contact</a></li>
+					<li class="nav-link"><a href="./login.html">Login</a></li>
+				</ul>
+			</div>
+			<div class="nav-right-container">
+				<img src="img/search.svg" alt="Search Icon">
+				<img src="img/profile.svg" alt="Profile Icon">
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div class="hero-container">
+			<div class="hero-contents">
+				<span>INNOVEX</span>
+				<h1>Give Your Dream WINGS</h1>
+				<p>We empower start-ups that innovate in the cutting edge of technology, blending abstractions with reality.</p>
+				<div class="button-container">
+					<button class="cta">RAISE FUNDS</button>
+					<button class="sec-cta">INVEST</button>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer id="footer">
+		<div class="footer-top-container">
+			<div class="footer-brand">
+				<img src="./img/logo.svg" alt="logo">
+				<p>101 Gayle Street <br>India</p>
+			</div>
+			<div class="footer-nav">
+				<div class="footer-links">
+					<h4>Links</h4>
+					<a href="./index.html" class="footer-link">Home</a>
+					<a href="./index.html" class="footer-link">About</a>
+					<a href="./companies.html" class="footer-link">Companies</a>
+					<a href="./contact.html" class="footer-link">Contact</a>
+				</div>
+				<div class="footer-help">
+					<h4>Help</h4>
+					<a href="./index.html" class="footer-link">Payment Options</a>
+					<a href="./index.html" class="footer-link">Returns</a>
+					<a href="./index.html" class="footer-link">Privacy Policy</a>
+				</div>
+			</div>
+			<div class="footer-newsletter">
+				<h4>News Letter</h4>
+				<input type="text" placeholder="Enter your Email Address">
+				<button>SUBSCRIBE</button>
+			</div>
+		</div>
+		<hr>
+		<div class="footer-bottom-container">
+			<div class="footer-bottom-left-container">
+				<p>2025 Innovex. All rights reserved.</p>
+			</div>
+			<div class="footer-bottom-right-container">
+				<img src="./img/social/youtube.png" alt="YouTube">
+				<img src="./img/social/twitter.png" alt="Twitter">
+				<img src="./img/social/mail.png" alt="Gmail">
+				<img src="./img/social/snap.png" alt="Snap Chat">
+				<img src="./img/social/meta.png" alt="Meta">
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
+
+
+#companies.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Innovex | Fundraiser | Contact</title>
+	<link rel="stylesheet" href="base.css">
+	<link rel="stylesheet" href="navbar.css">
+	<link rel="stylesheet" href="navigator.css">
+	<link rel="stylesheet" href="footer.css">
+	<link rel="stylesheet" href="companies.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="nav-left-container">
+				<img src="img/logo.svg" alt="logo">
+			</div>
+			<div class="nav-center-container">
+				<ul>
+					<li class="nav-link"><a href="./index.html">Home</a></li>
+					<li class="nav-link"><a href="#footer">About</a></li>
+					<li class="nav-link"><a href="./companies.html">Companies</a></li>
+					<li class="nav-link"><a href="./index.html">Funding</a></li>
+					<li class="nav-link"><a href="./contact.html">Contact</a></li>
+					<li class="nav-link"><a href="./login.html">Login</a></li>
+				</ul>
+			</div>
+			<div class="nav-right-container">
+				<img src="img/search.svg" alt="Search Icon">
+				<img src="img/profile.svg" alt="Profile Icon">
+			</div>
+		</nav>
+	</header>
+
+	<section class="navigator">
+		<div class="blur">
+			<img src="img/logo-symbol.svg" alt="symbol">
+			<h1>Company</h3>
+			<div class="path">
+				<h6>Home ></h6>
+				<p>Company</p>
+			</div>
+		</div>
+	</section>
+
+	<main>
+		<div class="panel">
+			<div class="panel-left-container">
+				<div class="filter-button">
+					<img src="./img/company/icon-one.svg" alt="">
+					<p class="panel-text">Filter</h1>
+				</div>
+				<img src="./img/company/icon-two.svg" alt="" class="panel-second-image">
+				<img src="./img/company/icon-three.svg" alt="">
+				<div class="panel-status">
+					<p>Showing 1-12 of 48 results</p>
+				</div>
+			</div>
+			<div class="panel-right-container">
+				<div class="panel-show">
+					<p>Show</p>
+					<input type="text" placeholder="12">
+				</div>
+				<div class="panel-sort">
+					<p>Sort by</p>
+					<input type="text" placeholder="Default">
+				</div>
+			</div>
+		</div>
+
+		<div class="companies">
+			<div class="companies-row-one companies-row">
+				<div class="company">
+					<div class="company-img-container company-img-one"></div>
+					<div class="company-content">
+						<div class="company-identity">
+							<h1>Shenzen</h1>
+							<div class="company-funders">
+								<div class="company-funder"><img src="./img/company/apple.svg" alt=""></div>
+								<div class="company-funder"><img src="./img/company/google.svg" alt=""></div>
+								<div class="company-funder"><img src="./img/company/bmw.svg" alt=""></div>
+								<div class="company-funder more"><img src="./img/company/more.svg" alt=""></div>
+							</div>
+						</div>
+						<p>HOVERAir X1 Drone</p>
+						<div class="valuation">
+							<h2>$202.502.000</h2>
+						</div>
+					</div>
+				</div>
+				<div class="company">
+					<div class="company-img-container company-img-two"></div>
+					<div class="company-content">
+						<div class="company-identity">
+							<h1>Dell</h1>
+							<div class="company-funders">
+								<div class="company-funder"><img src="./img/company/apple.svg" alt=""></div>
+								<div class="company-funder"><img src="./img/company/google.svg" alt=""></div>
+								<div class="company-funder"><img src="./img/company/bmw.svg" alt=""></div>
+								<div class="company-funder more"><img src="./img/company/more.svg" alt=""></div>
+							</div>
+						</div>
+						<p>MS900 Premier Mouse</p>
+						<div class="valuation">
+							<h2>$600.705.000</h2>
+						</div>
+					</div>
+				</div>
+				<div class="company">
+					<div class="company-img-container company-img-three"></div>
+					<div class="company-content">
+						<div class="company-identity">
+							<h1>Toyota</h1>
+							<div class="company-funders">
+								<div class="company-funder"><img src="./img/company/apple.svg" alt=""></div>
+								<div class="company-funder"><img src="./img/company/google.svg" alt=""></div>
+								<div class="company-funder"><img src="./img/company/bmw.svg" alt=""></div>
+								<div class="company-funder more"><img src="./img/company/more.svg" alt=""></div>
+							</div>
+						</div>
+						<p>BK117</p>
+						<div class="valuation">
+							<h2>$817.000.000</h2>
+						</div>
+					</div>
+				</div>
+				<div class="company">
+					<div class="company-img-container company-img-four"></div>
+					<div class="company-content">
+						<div class="company-identity">
+							<h1>Boston</h1>
+							<div class="company-funders">
+								<div class="company-funder"><img src="./img/company/apple.svg" alt=""></div>
+								<div class="company-funder"><img src="./img/company/google.svg" alt=""></div>
+								<div class="company-funder"><img src="./img/company/bmw.svg" alt=""></div>
+								<div class="company-funder more"><img src="./img/company/more.svg" alt=""></div>
+							</div>
+						</div>
+						<p>Atlas Dynamics</p>
+						<div class="valuation">
+							<h2>$1.090.604.000</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="companies-row-two companies-row">
+				<div class="company">
+					<div class="company-img-container company-img-one"></div>
+					<div class="company-content">
+						<div class="company-identity">
+							<h1>Shenzen</h1>
+							<div class="company-funders">
+								<div class="company-funder"><img src="./img/company/apple.svg" alt=""></div>
+								<div class="company-funder"><img src="./img/company/google.svg" alt=""></div>
+								<div class="company-funder"><img src="./img/company/bmw.svg" alt=""></div>
+								<div class="company-funder more"><img src="./img/company/more.svg" alt=""></div>
+							</div>
+						</div>
+						<p>HOVERAir X1 Drone</p>
+						<div class="valuation">
+							<h2>$202.502.000</h2>
+						</div>
+					</div>
+				</div>
+				<div class="company">
+					<div class="company-img-container company-img-two"></div>
+					<div class="company-content">
+						<div class="company-identity">
+							<h1>Dell</h1>
+							<div class="company-funders">
+								<div class="company-funder"><img src="./img/company/apple.svg" alt=""></div>
+								<div class="company-funder"><img src="./img/company/google.svg" alt=""></div>
+								<div class="company-funder"><img src="./img/company/bmw.svg" alt=""></div>
+								<div class="company-funder more"><img src="./img/company/more.svg" alt=""></div>
+							</div>
+						</div>
+						<p>MS900 Premier Mouse</p>
+						<div class="valuation">
+							<h2>$600.705.000</h2>
+						</div>
+					</div>
+				</div>
+				<div class="company">
+					<div class="company-img-container company-img-three"></div>
+					<div class="company-content">
+						<div class="company-identity">
+							<h1>Toyota</h1>
+							<div class="company-funders">
+								<div class="company-funder"><img src="./img/company/apple.svg" alt=""></div>
+								<div class="company-funder"><img src="./img/company/google.svg" alt=""></div>
+								<div class="company-funder"><img src="./img/company/bmw.svg" alt=""></div>
+								<div class="company-funder more"><img src="./img/company/more.svg" alt=""></div>
+							</div>
+						</div>
+						<p>BK117</p>
+						<div class="valuation">
+							<h2>$817.000.000</h2>
+						</div>
+					</div>
+				</div>
+				<div class="company">
+					<div class="company-img-container company-img-four"></div>
+					<div class="company-content">
+						<div class="company-identity">
+							<h1>Boston</h1>
+							<div class="company-funders">
+								<div class="company-funder"><img src="./img/company/apple.svg" alt=""></div>
+								<div class="company-funder"><img src="./img/company/google.svg" alt=""></div>
+								<div class="company-funder"><img src="./img/company/bmw.svg" alt=""></div>
+								<div class="company-funder more"><img src="./img/company/more.svg" alt=""></div>
+							</div>
+						</div>
+						<p>Atlas Dynamics</p>
+						<div class="valuation">
+							<h2>$1.090.604.000</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="companies-row-three companies-row">
+				<div class="company">
+					<div class="company-img-container company-img-one"></div>
+					<div class="company-content">
+						<div class="company-identity">
+							<h1>Shenzen</h1>
+							<div class="company-funders">
+								<div class="company-funder"><img src="./img/company/apple.svg" alt=""></div>
+								<div class="company-funder"><img src="./img/company/google.svg" alt=""></div>
+								<div class="company-funder"><img src="./img/company/bmw.svg" alt=""></div>
+								<div class="company-funder more"><img src="./img/company/more.svg" alt=""></div>
+							</div>
+						</div>
+						<p>HOVERAir X1 Drone</p>
+						<div class="valuation">
+							<h2>$202.502.000</h2>
+						</div>
+					</div>
+				</div>
+				<div class="company">
+					<div class="company-img-container company-img-two"></div>
+					<div class="company-content">
+						<div class="company-identity">
+							<h1>Dell</h1>
+							<div class="company-funders">
+								<div class="company-funder"><img src="./img/company/apple.svg" alt=""></div>
+								<div class="company-funder"><img src="./img/company/google.svg" alt=""></div>
+								<div class="company-funder"><img src="./img/company/bmw.svg" alt=""></div>
+								<div class="company-funder more"><img src="./img/company/more.svg" alt=""></div>
+							</div>
+						</div>
+						<p>MS900 Premier Mouse</p>
+						<div class="valuation">
+							<h2>$600.705.000</h2>
+						</div>
+					</div>
+				</div>
+				<div class="company">
+					<div class="company-img-container company-img-three"></div>
+					<div class="company-content">
+						<div class="company-identity">
+							<h1>Toyota</h1>
+							<div class="company-funders">
+								<div class="company-funder"><img src="./img/company/apple.svg" alt=""></div>
+								<div class="company-funder"><img src="./img/company/google.svg" alt=""></div>
+								<div class="company-funder"><img src="./img/company/bmw.svg" alt=""></div>
+								<div class="company-funder more"><img src="./img/company/more.svg" alt=""></div>
+							</div>
+						</div>
+						<p>BK117</p>
+						<div class="valuation">
+							<h2>$817.000.000</h2>
+						</div>
+					</div>
+				</div>
+				<div class="company">
+					<div class="company-img-container company-img-four"></div>
+					<div class="company-content">
+						<div class="company-identity">
+							<h1>Boston</h1>
+							<div class="company-funders">
+								<div class="company-funder"><img src="./img/company/apple.svg" alt=""></div>
+								<div class="company-funder"><img src="./img/company/google.svg" alt=""></div>
+								<div class="company-funder"><img src="./img/company/bmw.svg" alt=""></div>
+								<div class="company-funder more"><img src="./img/company/more.svg" alt=""></div>
+							</div>
+						</div>
+						<p>Atlas Dynamics</p>
+						<div class="valuation">
+							<h2>$1.090.604.000</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="sliders">
+			<div>
+				<button>Prev</button>
+				<button class="active">1</button>
+				<button>2</button>
+				<button>3</button>
+				<button>4</button>
+				<button>Next</button>
+			</div>
+		</div>
+	</main>
+
+	<footer id="footer">
+		<div class="footer-top-container">
+			<div class="footer-brand">
+				<img src="./img/logo.svg" alt="logo">
+				<p>101 Gayle Street <br>India</p>
+			</div>
+			<div class="footer-nav">
+				<div class="footer-links">
+					<h4>Links</h4>
+					<a href="./index.html" class="footer-link">Home</a>
+					<a href="./index.html" class="footer-link">About</a>
+					<a href="./companies.html" class="footer-link">Companies</a>
+					<a href="./contact.html" class="footer-link">Contact</a>
+				</div>
+				<div class="footer-help">
+					<h4>Help</h4>
+					<a href="./index.html" class="footer-link">Payment Options</a>
+					<a href="./index.html" class="footer-link">Returns</a>
+					<a href="./index.html" class="footer-link">Privacy Policy</a>
+				</div>
+			</div>
+			<div class="footer-newsletter">
+				<h4>News Letter</h4>
+				<input type="text" placeholder="Enter your Email Address">
+				<button>SUBSCRIBE</button>
+			</div>
+		</div>
+		<hr>
+		<div class="footer-bottom-container">
+			<div class="footer-bottom-left-container">
+				<p>2025 Innovex. All rights reserved.</p>
+			</div>
+			<div class="footer-bottom-right-container">
+				<img src="./img/social/youtube.png" alt="YouTube">
+				<img src="./img/social/twitter.png" alt="Twitter">
+				<img src="./img/social/mail.png" alt="Gmail">
+				<img src="./img/social/snap.png" alt="Snap Chat">
+				<img src="./img/social/meta.png" alt="Meta">
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
+
+
+#contact.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Innovex | Fundraiser | Contact</title>
+	<link rel="stylesheet" href="base.css">
+	<link rel="stylesheet" href="navbar.css">
+	<link rel="stylesheet" href="navigator.css">
+	<link rel="stylesheet" href="footer.css">
+	<link rel="stylesheet" href="contact.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="nav-left-container">
+				<img src="img/logo.svg" alt="logo">
+			</div>
+			<div class="nav-center-container">
+				<ul>
+					<li class="nav-link"><a href="./index.html">Home</a></li>
+					<li class="nav-link"><a href="#footer">About</a></li>
+					<li class="nav-link"><a href="./companies.html">Companies</a></li>
+					<li class="nav-link"><a href="./index.html">Funding</a></li>
+					<li class="nav-link"><a href="./contact.html">Contact</a></li>
+					<li class="nav-link"><a href="./login.html">Login</a></li>
+				</ul>
+			</div>
+			<div class="nav-right-container">
+				<img src="img/search.svg" alt="Search Icon">
+				<img src="img/profile.svg" alt="Profile Icon">
+			</div>
+		</nav>
+	</header>
+
+	<section class="navigator">
+		<div class="blur">
+			<img src="img/logo-symbol.svg" alt="symbol">
+			<h1>Contact</h3>
+			<div class="path">
+				<h6>Home ></h6>
+				<p>Contact</p>
+			</div>
+		</div>
+	</section>
+
+	<main>
+		<div class="contact-heading">
+			<h1>Get In Touch With Us</h1>
+			<p>For More Information, Please Feel Free To Drop Us An Email. <br>Do not Hesitate!</p>
+		</div>
+		<div class="contact-content">
+			<div class="contact-details">
+				<div class="contact-detail">
+					<img src="./img/contact/location.svg" alt="">
+					<div class="contact-detail-text">
+						<h3>Address</h3>
+						<p>236 5th SE Avenue, New York NY10000, United States</p>
+					</div>
+				</div>
+				<div class="contact-detail">
+					<img src="./img/contact/call.svg" alt="">
+					<div class="contact-detail-text">
+						<h3>Phone</h3>
+						<p>Mobile: +(84) 546-6789 <br>Hotline: +(84) 456-6789</p>
+					</div>
+				</div>
+				<div class="contact-detail">
+					<img src="./img/contact/clock.svg" alt="">
+					<div class="contact-detail-text">
+						<h3>Working Time</h3>
+						<p>Monday-Friday: 9:00 - 22:00 <br>Saturday-Sunday: 9:00 - 21:00</p>
+					</div>
+				</div>
+			</div>
+			<div class="contact-form">
+				<div class="form-field">
+					<h6>Your Name</h6>
+					<input type="text" placeholder="Abc">
+				</div>
+				<div class="form-field">
+					<h6>Email Address</h6>
+					<input type="text" placeholder="Abc@def.com">
+				</div>
+				<div class="form-field">
+					<h6>Subject</h6>
+					<input type="text" placeholder="This is optional">
+				</div>
+				<div class="form-field">
+					<h6>Message</h6>
+					<input type="text" placeholder="Hi, I'd like to ask about...">
+				</div>
+
+				<button>Submit</button>
+			</div>
+		</div>
+	</main>
+
+	<footer id="footer">
+		<div class="footer-top-container">
+			<div class="footer-brand">
+				<img src="./img/logo.svg" alt="logo">
+				<p>101 Gayle Street <br>India</p>
+			</div>
+			<div class="footer-nav">
+				<div class="footer-links">
+					<h4>Links</h4>
+					<a href="./index.html" class="footer-link">Home</a>
+					<a href="./index.html" class="footer-link">About</a>
+					<a href="./companies.html" class="footer-link">Companies</a>
+					<a href="./contact.html" class="footer-link">Contact</a>
+				</div>
+				<div class="footer-help">
+					<h4>Help</h4>
+					<a href="./index.html" class="footer-link">Payment Options</a>
+					<a href="./index.html" class="footer-link">Returns</a>
+					<a href="./index.html" class="footer-link">Privacy Policy</a>
+				</div>
+			</div>
+			<div class="footer-newsletter">
+				<h4>News Letter</h4>
+				<input type="text" placeholder="Enter your Email Address">
+				<button>SUBSCRIBE</button>
+			</div>
+		</div>
+		<hr>
+		<div class="footer-bottom-container">
+			<div class="footer-bottom-left-container">
+				<p>2025 Innovex. All rights reserved.</p>
+			</div>
+			<div class="footer-bottom-right-container">
+				<img src="./img/social/youtube.png" alt="YouTube">
+				<img src="./img/social/twitter.png" alt="Twitter">
+				<img src="./img/social/mail.png" alt="Gmail">
+				<img src="./img/social/snap.png" alt="Snap Chat">
+				<img src="./img/social/meta.png" alt="Meta">
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
+
+
+#login.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Innovex | Fundraiser | Contact</title>
+	<link rel="stylesheet" href="base.css">
+	<link rel="stylesheet" href="navbar.css">
+	<link rel="stylesheet" href="navigator.css">
+	<link rel="stylesheet" href="footer.css">
+	<link rel="stylesheet" href="login.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="nav-left-container">
+				<img src="img/logo.svg" alt="logo">
+			</div>
+			<div class="nav-center-container">
+				<ul>
+					<li class="nav-link"><a href="./index.html">Home</a></li>
+					<li class="nav-link"><a href="#footer">About</a></li>
+					<li class="nav-link"><a href="./companies.html">Companies</a></li>
+					<li class="nav-link"><a href="./index.html">Funding</a></li>
+					<li class="nav-link"><a href="./contact.html">Contact</a></li>
+					<li class="nav-link"><a href="./login.html">Login</a></li>
+				</ul>
+			</div>
+			<div class="nav-right-container">
+				<img src="img/search.svg" alt="Search Icon">
+				<img src="img/profile.svg" alt="Profile Icon">
+			</div>
+		</nav>
+	</header>
+
+	<section class="navigator">
+		<div class="blur">
+			<img src="img/logo-symbol.svg" alt="symbol">
+			<h1>Log In</h3>
+			<div class="path">
+				<h6>Home ></h6>
+				<p>Log in</p>
+			</div>
+		</div>
+	</section>
+
+	<main>
+		<div class="contact-form">
+			<div class="form-field">
+				<h6>Email Address</h6>
+				<input type="text" placeholder="Abc@def.com">
+			</div>
+			<div class="form-field">
+				<h6>Password</h6>
+				<input type="password" placeholder="********">
+			</div>
+
+			<button>Submit</button>
+		</div>
+	</main>
+
+	<footer id="footer">
+		<div class="footer-top-container">
+			<div class="footer-brand">
+				<img src="./img/logo.svg" alt="logo">
+				<p>101 Gayle Street <br>India</p>
+			</div>
+			<div class="footer-nav">
+				<div class="footer-links">
+					<h4>Links</h4>
+					<a href="./index.html" class="footer-link">Home</a>
+					<a href="./index.html" class="footer-link">About</a>
+					<a href="./companies.html" class="footer-link">Companies</a>
+					<a href="./contact.html" class="footer-link">Contact</a>
+				</div>
+				<div class="footer-help">
+					<h4>Help</h4>
+					<a href="./index.html" class="footer-link">Payment Options</a>
+					<a href="./index.html" class="footer-link">Returns</a>
+					<a href="./index.html" class="footer-link">Privacy Policy</a>
+				</div>
+			</div>
+			<div class="footer-newsletter">
+				<h4>News Letter</h4>
+				<input type="text" placeholder="Enter your Email Address">
+				<button>SUBSCRIBE</button>
+			</div>
+		</div>
+		<hr>
+		<div class="footer-bottom-container">
+			<div class="footer-bottom-left-container">
+				<p>2025 Innovex. All rights reserved.</p>
+			</div>
+			<div class="footer-bottom-right-container">
+				<img src="./img/social/youtube.png" alt="YouTube">
+				<img src="./img/social/twitter.png" alt="Twitter">
+				<img src="./img/social/mail.png" alt="Gmail">
+				<img src="./img/social/snap.png" alt="Snap Chat">
+				<img src="./img/social/meta.png" alt="Meta">
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
+
+
+#base.css
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*, *::before, *::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+button {
+	background: none;
+	color: black;
+	border: none;
+}
+
+
+
+#navbar.css
+
+nav {
+	min-height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 50px;
+}
+
+.nav-center-container ul {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+
+.nav-center-container ul li {
+	margin: 0px 30px;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.nav-right-container img {
+	height: 28px;
+	width: 58px;
+}
+
+
+
+#footer.css
+
+.footer-nav div {
+	display: flex;
+	justify-content: top;
+	flex-direction: column;
+}
+
+footer h4 {
+	font-size: 16px;
+	font-weight: 500;
+	color: #9F9F9F;
+	margin-bottom: 10px;
+}
+
+.footer-nav .footer-help {
+	margin-left: 100px;
+}
+
+.footer-nav a {
+	margin-top: 45px;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.footer-newsletter input {
+	border: none;
+	border-bottom: 1px solid black;
+	width: 200px;
+	padding: 10px 0px;
+	margin-right: 10px;
+}
+
+.footer-newsletter input::placeholder {
+	font-size: 14px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+}
+
+.footer-newsletter input:focus {
+	border: none;
+}
+
+.footer-newsletter button {
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+footer hr {
+	height: 1px;
+	background: #D9D9D9;
+	border: 0;
+	font-size: 0;
+}
+
+.footer-bottom-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 35px 0px;
+}
+
+.footer-bottom-container img {
+	height: 28px;
+	width: 28px;
+	margin-left: 40px;
+}
+
+.footer-newsletter h4 {
+	margin-bottom: 50px;
+}
+
+
+#navigator.css
+
+
+.navigator {
+	background-image: url("./img/navigator-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.navigator .blur {
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF50;
+  	backdrop-filter: blur(2px);
+	-webkit-backdrop-filter: blur(2px);
+	padding: 40px 0px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.navigator img {
+	width: 34px;
+	height: 34px;
+}
+
+.navigator h1 {
+	font-size: 48px;
+	font-weight: 500;
+}
+
+.navigator .path {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navigator .path h6 {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.navigator .path p {
+	font-size: 16px; 
+	font-weight: 300;
+	margin-left: 6px;
+}
+
+
+
+#style.css
+
+.hero-container {
+	min-height: 100vh;
+	background-size: 125%;
+	background-image: url("./img/background.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.hero-contents {
+	background-color: #FFF3E380;
+	padding: 60px 40px;
+	float: right;
+	width: 44vw;
+	margin-right: 60px;
+	border-radius: 10px;
+}
+
+.hero-contents span {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 4px;
+}
+
+.hero-contents h1 {
+	font-size: 52px;
+	font-weight: 700;
+	color: #B88E2F;
+	line-height: 65px;
+}
+
+.hero-contents p {
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: 17px;
+}
+
+.hero-contents .button-container {
+	margin-top: 25px;
+}
+
+.hero-contents .button-container button {
+	padding: 25px 70px;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.cta {
+	background-color: #B88E2F;
+	color: white;
+}
+
+.sec-cta {
+	color: #B88E2F;
+	margin-left: 25px;
+	border: 2px dashed #B88E2F;
+}
+
+
+
+#companies.css
+
+.panel {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #F9F1E7;
+	padding: 22px 100px;
+}
+
+.panel img {
+	width: 28px;
+	height: 28px;
+}
+
+.panel .panel-left-container {
+	display: flex;
+}
+
+.panel .filter-button {
+	display: flex;
+}
+
+.panel .filter-button p {
+	margin-left: 12px;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.panel-second-image {
+	margin: 0px 24px;
+}
+
+.panel-status {
+	margin-left: 30px;
+	padding-left: 30px;
+	border-left: 2px solid #9F9F9F;
+}
+
+.panel-right-container {
+	display: flex;
+	
+}
+
+.panel-right-container div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 40px;
+}
+
+.panel-right-container div p {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.panel-right-container div input {
+	margin-left: 15px;
+	width: 55px;
+	height: 55px;
+	text-align: center;
+	border: none;
+}
+
+.panel-right-container .panel-sort input {
+	width: 180px;
+}
+
+.panel-right-container div input::placeholder {
+	font-size: 16px;
+	color: #9F9F9F;
+	font-weight: 400;
+	font-family: "Poppins", sans-serif;
+}
+
+.companies {
+	display: flex;
+	flex-direction: column;
+	padding: 65px 84px;
+}
+
+.companies .companies-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 0px;
+}
+
+.company {
+	background-color: #F9F1E7;
+	margin: 0px 16px;
+	border-radius: 10px;
+	width: 300px;
+}
+
+.company-identity {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.company-funders {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.company-funder {
+	width: 35px;
+	height: 35px;
+	background-color: #B88E2F10;
+	margin-left: 2px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.more {
+	background: none;
+}
+
+.more img {
+	width: 15px !important;
+	height: 15px !important;
+}
+
+.company-funders img {
+	width: 25px;
+	height: 25px;
+}
+
+.company-img-container {
+	height: 300px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.company-img-one {
+	background-image: url("./img/company-img/pic-one.jpg");
+}
+
+.company-img-two {
+	background-image: url("./img/company-img/pic-two.jpg");
+}
+
+.company-img-three {
+	background-image: url("./img/company-img/pic-three.jpg");
+}
+
+.company-img-four {
+	background-image: url("./img/company-img/pic-four.jpg");
+}
+
+.company-content {
+	padding: 16px;
+}
+
+.company-content h1 {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.company-content p {
+	font-size: 16px;
+	color: #898989;
+	font-weight: 500;
+
+	margin: 8px 0px;
+}
+
+.company-content h2 {
+	font-size: 20px;
+	font-weight: 600;
+	padding-top: 4px;
+}
+
+.sliders {
+	margin-top: 30px;
+	margin-bottom: 85px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.sliders button {
+	padding: 15px 25px;
+	margin: 0px 10px;
+	border-radius: 10px;
+	color: black;
+	background-color: #F9F1E7;
+}
+
+.sliders button.active {
+	background-color: #B88E2F;
+	color: white;
+}
+
+
+
+#contact.css
+
+main {
+	padding: 100px 190px;
+}
+
+.contact-heading {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-heading p {
+	text-align: center;
+	margin-top: 7px;
+}
+
+.contact-content {
+	margin-top: 80px;
+	display: flex;
+	justify-content: space-between;
+	padding: 60px;
+}
+
+.contact-detail {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 40px;
+}
+
+.contact-detail-text {
+	margin-left: 35px;
+}
+
+.contact-detail-text h3 {
+	font-weight: 500;
+	font-size: 24px;
+}
+
+.contact-detail img {
+	margin-top: 2px;
+}
+
+.contact-form {
+	padding-right: 30px;
+	padding-left: 90px;
+	margin-left: 30px;
+}
+
+.contact-form h6 {
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.contact-form input {
+	width: 530px;
+	padding: 25px;
+	border-radius: 10px;
+	border: 1px solid #9F9F9F;
+	margin-bottom: 36px;
+}
+
+.contact-form input::placeholder {
+	font-size: 16px;
+	font-weight: 400;
+	font-family: "Poppins", sans-serif;
+}
+
+.contact-form button {
+	padding: 14px 90px;
+	background-color: #B88E2F;
+	color: white;
+	border-radius: 5px;
+}
+
+
+
+#login.css
+
+main {
+	padding: 100px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-form {
+	padding-right: 30px;
+	padding-left: 90px;
+	margin-left: 30px;
+}
+
+.contact-form h6 {
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.contact-form input {
+	width: 530px;
+	padding: 25px;
+	border-radius: 10px;
+	border: 1px solid #9F9F9F;
+	margin-bottom: 36px;
+}
+
+.contact-form input::placeholder {
+	font-size: 16px;
+	font-weight: 400;
+	font-family: "Poppins", sans-serif;
+}
+
+.contact-form button {
+	padding: 14px 90px;
+	background-color: #B88E2F;
+	color: white;
+	border-radius: 5px;
+}
+
+
+
