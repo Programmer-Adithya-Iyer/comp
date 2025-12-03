@@ -1,0 +1,25 @@
+nav {
+	min-height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 50px;
+}
+
+.nav-center-container ul {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+
+.nav-center-container ul li {
+	margin: 0px 30px;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.nav-right-container img {
+	height: 28px;
+	width: 58px;
+}

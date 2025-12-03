@@ -1,0 +1,48 @@
+.navigator {
+	background-image: url("./img/navigator-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.navigator .blur {
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF50;
+  	backdrop-filter: blur(2px);
+	-webkit-backdrop-filter: blur(2px);
+	padding: 40px 0px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.navigator img {
+	width: 34px;
+	height: 34px;
+}
+
+.navigator h1 {
+	font-size: 48px;
+	font-weight: 500;
+}
+
+.navigator .path {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navigator .path h6 {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.navigator .path p {
+	font-size: 16px; 
+	font-weight: 300;
+	margin-left: 6px;
+}
+

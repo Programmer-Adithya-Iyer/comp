@@ -1,0 +1,39 @@
+main {
+	padding: 100px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-form {
+	padding-right: 30px;
+	padding-left: 90px;
+	margin-left: 30px;
+}
+
+.contact-form h6 {
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.contact-form input {
+	width: 530px;
+	padding: 25px;
+	border-radius: 10px;
+	border: 1px solid #9F9F9F;
+	margin-bottom: 36px;
+}
+
+.contact-form input::placeholder {
+	font-size: 16px;
+	font-weight: 400;
+	font-family: "Poppins", sans-serif;
+}
+
+.contact-form button {
+	padding: 14px 90px;
+	background-color: #B88E2F;
+	color: white;
+	border-radius: 5px;
+}
